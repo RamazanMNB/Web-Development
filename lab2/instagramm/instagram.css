@@ -1,0 +1,342 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    border: 0 ;
+    margin: 0;
+}
+.layout {
+    display: flex;
+    width: 100%;
+    min-height: 100vh; 
+    flex-direction: row;
+}
+
+
+.leftside{
+    width: 57%;
+    background: white;
+   
+    border-bottom: 1px solid rgb(188, 188, 188);
+}
+
+.leftside p{
+    padding-top:0;
+    margin-top:0;
+    flex: 1 ;
+    display: flex;
+    font-size: 40px;
+    
+    padding-left:100px;
+    padding-right: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.gradient-text  {
+  
+  background: linear-gradient(to left, rgb(81,91,212), rgb(129,52,175), rgb(221,42,123), rgb(254,218,119),rgb(245,133,41));
+  
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+ 
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+  font-size: 40px;
+  display: inline-block;
+}
+
+
+.instlogo{
+    margin-left:40px;
+    display: flex;
+    
+    margin-top: 40px;
+    border-top: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    border-top: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.elements p{
+    font-family: -apple-system, BlinkMacSystemFont, 
+               "Segoe UI", Roboto, Helvetica, Arial, 
+               sans-serif;
+  
+    
+    font-weight: 600; 
+    font-size: 20px; 
+    letter-spacing: 0.5px; /* Небольшое сжатие букв */
+    color: #030202; 
+    margin-top:24%;
+
+}
+
+
+.elements input{
+    width:120%;
+    height: 60px;
+    font-size:15px; 
+    border-radius: 20px;
+    
+    border-color:0.5px solid gray;
+    padding-left: 15px;
+    font-family:  -apple-system, BlinkMacSystemFont, 
+               "Segoe UI", Roboto, Helvetica, Arial, 
+               sans-serif;
+    font-weight: 500;
+
+    margin-bottom: 10px;
+
+}
+.elements input:hover{
+    width:120%;
+    height: 60px;
+    font-size:15px; 
+    border-radius: 20px;
+    
+    border-color:0.5px solid rgb(79, 79, 79);
+    padding-left: 15px;
+    font-family:  -apple-system, BlinkMacSystemFont, 
+               "Segoe UI", Roboto, Helvetica, Arial, 
+               sans-serif;
+    font-weight: 500;
+
+    margin-bottom: 10px;
+
+}
+
+.voiti{
+    width: 120%;
+    height: 45px;
+    font-size: 15px;
+    background-color:rgb(112, 173, 248);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 
+               "Segoe UI", Roboto, Helvetica, Arial, 
+               sans-serif;
+    font-weight: 500;
+    border:none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.parolzabyl{
+    width: 120%;
+    height: 45px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 
+               "Segoe UI", Roboto, Helvetica, Arial, 
+               sans-serif;
+    font-weight: 500;
+    border:none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.parolzabyl:hover{
+    width: 120%;
+    height: 45px;
+    font-size: 15px;
+    background-color: rgb(247, 247, 247);
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 
+               "Segoe UI", Roboto, Helvetica, Arial, 
+               sans-serif;
+    font-weight: 500;
+    border:none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.Facebook{
+    width: 120%;
+    height: 45px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 
+               "Segoe UI", Roboto, Helvetica, Arial, 
+               sans-serif;
+    font-weight: 500;
+    border: 0.5px solid gray;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+.Facebook:hover{
+    width: 120%;
+    height: 45px;
+    font-size: 15px;
+    background-color:rgb(247, 247, 247);
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 
+               "Segoe UI", Roboto, Helvetica, Arial, 
+               sans-serif;
+    font-weight: 500;
+    border: 0.5px solid gray;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+.newaccount{
+    width: 120%;
+    height: 45px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 100, 224);
+    font-family: -apple-system, BlinkMacSystemFont, 
+               "Segoe UI", Roboto, Helvetica, Arial, 
+               sans-serif;
+    font-weight: 500;
+    border: 0.5px solid rgba(0, 100, 224);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.newaccount:hover{
+    width: 120%;
+    height: 45px;
+    font-size: 15px;
+    background-color: rgb(247, 247, 247);
+    color: rgba(0, 100, 224);
+    font-family: -apple-system, BlinkMacSystemFont, 
+               "Segoe UI", Roboto, Helvetica, Arial, 
+               sans-serif;
+    font-weight: 500;
+    border: 0.5px solid rgba(0, 100, 224);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.elements{
+
+
+
+
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    width: 70%;
+    margin-left: 7%;
+}
+
+.rightside{
+    border-left: 2px  solid rgb(188, 188, 188);
+    border-bottom: 1px solid rgb(188, 188, 188);
+    width: 40%;
+    flex: 1;
+    display:flex;
+    background: white;
+    flex-direction: column;
+}
+
+footer {
+  margin-top: 0px;
+  text-align: center;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-top: 0;
+}
+footer a {
+  margin: 0 8px;
+  font-size: 12px;
+  color: gray;
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .layout {
+        flex-direction: column;
+    }
+
+    .leftside {
+        display: none;
+    }
+
+    .rightside {
+        width: 100%;
+        border-left: none;
+        border-bottom: none;
+        align-items: center;
+    }
+
+    .elements {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .elements p {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .elements input,
+    .voiti,
+    .parolzabyl,
+    .Facebook,
+    .newaccount {
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px 10px;
+    }
+
+    footer a {
+        display: inline-block;
+        margin: 6px;
+    }
+}
+
+
+
+
+
+@media (max-width: 1024px) and (min-width: 769px) {
+
+    .leftside {
+        width: 50%;
+    }
+
+    .rightside {
+        width: 50%;
+    }
+
+    .leftside p {
+        font-size: 28px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .elements {
+        width: 85%;
+        margin-left: 5%;
+    }
+
+    .elements input,
+    .voiti,
+    .parolzabyl,
+    .Facebook,
+    .newaccount {
+        width: 100%;
+    }
+}
