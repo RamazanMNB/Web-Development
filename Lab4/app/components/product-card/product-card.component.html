@@ -1,0 +1,24 @@
+<div class="card">
+  <div class="image-container">
+    <img [src]="product.image" [alt]="product.name">
+  </div>
+
+  <div class="content">
+    <h3>{{ product.name }}</h3>
+    <p class="description">{{ product.description }}</p>
+
+    <div class="info">
+      <span class="price">{{ product.price | number }} ₸</span>
+      <span class="rating">⭐ {{ product.rating }}</span>
+    </div>
+
+    <div class="actions">
+      <a [href]="product.link" target="_blank" class="kaspi-link">Купить на Kaspi</a>
+
+      <div class="share-group">
+        <button (click)="shareToWhatsApp()" class="share-btn wa">WA</button>
+        <button (click)="shareToTelegram()" class="share-btn tg">TG</button>
+      </div>
+    </div>
+  </div>
+</div>
